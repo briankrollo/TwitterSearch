@@ -1,0 +1,57 @@
+/* 
+    Document   : friendemic
+    Created on : Oct 24, 2013, 11:33:54 PM
+    Author     : brian
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+	background-color: #596D7F;
+	color: #fff;
+	font-family: Arial, sans-serif;
+}
+
+a {
+	color: #fff;
+}
+
+ul, ol {
+	/*list-style-type: none;*/
+	margin-left:0;
+	padding-left:0;
+}
+
+li {
+	margin-bottom:1em;
+}
+
+.wrapper {
+	float:left;
+	margin:5px;
+}
+
+.internal {
+	margin:1em;
+	min-height:10em;
+	width:30em;
+	padding:1em;
+}
+
+#graph {
+	height:30em;
+	width:40em;
+}
+
+#searchform {
+	padding:1em;
+}
+
+#results {
+	display:none;
+}
+
+.instructions {
+	font-size: .9em;
+	width:25em;
+}
